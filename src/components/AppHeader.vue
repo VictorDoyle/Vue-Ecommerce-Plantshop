@@ -5,7 +5,8 @@
     <nav>
       <ul>
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
+        <li><router-link to="/products">Products</router-link></li>
+        <li><router-link to="/about">About Us</router-link></li>
       </ul>
     </nav>
   </header>
@@ -20,6 +21,11 @@ header {
     p {
       margin-left: 1rem;
     }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
   }
 
   nav {
@@ -28,7 +34,6 @@ header {
     ul {
       list-style: none;
     }
-
     ul li {
       display: inline-flex;
       margin-left: 1rem;
